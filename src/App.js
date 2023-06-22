@@ -1,5 +1,8 @@
 import { Button } from "antd";
 import "./App.css";
+import AppHeader from "./Components/Header";
+import AppFooter from "./Components/Footer";
+import PageContent from "./Components/PageContent";
 function App() {
   return (
     <div className="App">
@@ -8,16 +11,6 @@ function App() {
       <AppFooter />
     </div>
   );
-}
-
-function AppHeader() {
-  return <div className="appHeader">AppHeader</div>;
-}
-function AppFooter() {
-  return <div className="appFooter">AppFooter</div>;
-}
-function PageContent() {
-  return <div className="pageContent">PageContent</div>;
 }
 
 export default App;
